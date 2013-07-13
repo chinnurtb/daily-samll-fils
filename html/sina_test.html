@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--[if lt IE 9]><script src="/static/js/html5.js"></script><![endif]-->
+	<script type="text/javascript" src="/static/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript">
+	function getUrlPara(paraName)
+	{
+		var sUrl = location.href;
+		var sReg = "(?:\\?|&){1}"+paraName+"=([^&]*)"
+		var re=new RegExp(sReg,"gi");
+		re.exec(sUrl);
+		return RegExp.$1;	
+	}
+
+	function getCookie(c_name)
+	{
+	if (document.cookie.length>0)
+ 	 {
+ 	 c_start=document.cookie.indexOf(c_name + "=")
+ 	 if (c_start!=-1)
+  	  { 
+  	 	 c_start=c_start + c_name.length+1 
+  		 c_end=document.cookie.indexOf(";",c_start)
+   	 if (c_end==-1) c_end=document.cookie.length
+   	 	return unescape(document.cookie.substring(c_start,c_end))
+  	  } 
+ 	 }
+	return ""
+	}
+
+	function setCookie(c_name,value)
+	{
+		document.cookie=c_name+ "=" +escape(value)
+	}
+
+
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+  		{// code for IE7+, Firefox, Chrome, Opera, Safari
+  		xmlhttp=new XMLHttpRequest();
+  		}
+	else
+  		{// code for IE6, IE5
+  		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  		}
+	var code = getUrlPara("code");
+	if (code != "") 
+		{
+		xmlhttp.open("POST","http://lucas.yunio.com:8001/index/login", false);
+		xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xmlhttp.send("code="+code);
+//		if (xmlhttp.readyState==4 && xmlhttp.status==200)
+//			{
+//				resp = xmlhttp.responseText;
+//				setCookie("nimatoken", resp);
+//				alert(getCookie("nimatoken"));
+//				alert(resp);
+//			}
+	window.location.href="http://lucas.yunio.com:8001";
+		}
+	</script>
+</head>
+<body>
+	<form method="POST" action="http://lucas.yunio.com:8001/index/attention">
+	<input type="text" name="access_token" />
+	<input type="text" name="screen_name" />
+	<input type="submit" value="关注">
+	</form>
+	<form method="POST" action="http://lucas.yunio.com:8001/index/send">
+	<input type="text" name="access_token" />
+	<input type="text" name="status" />
+	<input type="submit" value="发微薄">
+	</form>
+</body>
+</html>

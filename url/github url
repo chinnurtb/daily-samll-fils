@@ -1,0 +1,16 @@
+1.https://github.com/zotonic/z_stdlib
+2.https://github.com/tobie/ua-parser
+3.https://github.com/3rd-Eden/useragent.git
+4.parse-transform -compile({parse_transform, exprecs}). https://github.com/esl/parse_trans.git
+	将record 转换为模块，不用到处引用record的定义
+5.batch api https://github.com/arsduo/batch_api#why-a-batch-api
+6.meck https://github.com/eproxus/meck
+7 https://github.com/luxun789/ErlangQuickComplie.git 编译工具
+8 print 打印消息 http://blog.chinaunix.net/uid-22241162-id-3162037.html
+9 	https://github.com/klarna/meshup   值得看的 
+	http://www.chicagoboss.org/
+	https://github.com/opscode/erchef
+10 https://github.com/spawngrid/kerl  kerl  安装erl 工具
+11 要看的 https://github.com/manopapad/proper erlang 语法最完美之一
+	https://github.com/massemanet/eper  比较旧的非gen_server风格，看完会对节点和进程之间的关系更深刻
+12 一个html 生成工具 https://github.com/github/gollum

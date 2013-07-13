@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head> javascript test for lucas <br>
+<script type="text/javascript">
+function click_it()
+	{alert("rush")}
+</script>
+</head>
+<body bgcolor=rgb(123,123,123,)>
+<script type="text/javascript">
+function click_it1()
+	{alert("you click it")};
+document.write("hello ,first come in")
+</script>
+<br>
+<button type="botton" onclick="click_it1()" > yumen</button><br>
+<img id="img_1" src="/home/lucas/download/pic/1.png" alt="pic_" width="120" height="60" onclick="click_it1()"/><br />
+<script type="text/javascript">
+document.getElementById("img_1").align="right";
+document.getElementById("img_1").onload=click_it();
+document.write(navigator.userAgent + "<br />");
+</script>
+</body>

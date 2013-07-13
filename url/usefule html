@@ -1,0 +1,32 @@
+1.git 讲解 http://www.360doc.com/content/12/0417/11/1016783_204340990.shtml
+2.yun.io邮箱 https://mail.google.com/mail/?shva=1#inbox
+3.mochiweb讲解 http://www.iteye.com/topic/348379
+4.erlang doc www.erlang.org/doc
+5.wiki.basho.com
+6.github.com
+7.erlang 四大行为 讲解 带图 http://blog.csdn.net/zhangzhizhen1988/article/details/7932449
+8.git submodule http://samwong.iteye.com/blog/1202454
+9.纪秀分博客 http://blog.csdn.net/jixiuffff   http://jixiuf.github.com/author.html
+10 erl 启动参数 http://www.erlangsir.com/2011/05/24/erlang-%E5%90%AF%E5%8A%A8%E5%8F%82%E6%95%B0/
+11 rebar 和 common_test 关系  http://blog.sina.com.cn/s/blog_a584d03401011sdh.html
+12 debug 调试 erlang http://www.cnblogs.com/yourihua/archive/2012/05/07/2489388.html
+13 linux系统备份 　dump 0f /dev/nst0 /（将ext2文件系统备份到第一个SCSI设备）
+　 restore －xf /dev/nst0 /home/code （将备份的SCSI设备中的/home/code目录下的所有数据还原到磁盘）
+   http://it.100xuexi.com/view/otdetail/20120608/0dd17e77-331a-495a-bdd2-225ed70f6fd3.html
+14 http://10.32.1.108:9090/#  yunio document
+15 git 图 http://www.cnblogs.com/1-2-3/archive/2010/07/18/git-commands.html
+16 发布程序 地址 http://10.32.1.6:4567/deployment#Deploying-Api
+17 文件接口  http://10.32.1.108:9090/
+18 ubuntu 设置为GBK http://blog.csdn.net/xwkp2008/article/details/1477150
+19 common test http://mryufeng.iteye.com/blog/365333
+	  http://www.erlang.org/doc/apps/common_test/run_test_chapter.html
+20 js http://www.w3school.com.cn/js/js_events.asp
+	(http://yunio2.young.com/files  本地的入口)
+21 webmachine https://github.com/basho/webmachine/wiki/Dispatching
+22 json path http://goessner.net/articles/JsonPath/
+23 ceph http://ceph.com/docs/master/start/quick-start/
+24 erlang 社团（www.trapexit.org）
+25 linux kernel 启动过程http://www.ibm.com/developerworks/cn/linux/kernel/startup/
+26 erlang 启动过程 http://www.holdjava.com/framework/57127.htm
+27 erlang beam http://www.cs-lab.org/historical_beam_instruction_set.html
+28 zmq http://www.zeromq.org/docs:3-1-upgrade  api.zeromq.org zguide.zeromq.org/page:all
