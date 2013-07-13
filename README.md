@@ -1,4 +1,4 @@
-daily-samll-fils
+daily-small-files
 ================
 
 This repo is the files some I wrote in the past,some files are simple written at the beginning of touching erlang.
